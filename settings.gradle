@@ -1,3 +1,2 @@
 include ':NineOldAndroids'
-include ':BetterPickers'
 include ':SSS'
