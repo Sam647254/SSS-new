@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <item
+        android:id="@+id/edit_entry"
+        android:icon="@android:drawable/ic_menu_edit"
+        android:showAsAction="ifRoom"
+        android:title="@string/edit" />
+
+    <item
+        android:id="@+id/delete_entry"
+        android:icon="@android:drawable/ic_menu_delete"
+        android:showAsAction="ifRoom"
+        android:title="@string/delete_entry"/>
+
+</menu><!-- From: file:/C:/Users/Sam/Dropbox/Android%20studio/SSS/SSS/src/main/res/menu/tasks_context.xml -->

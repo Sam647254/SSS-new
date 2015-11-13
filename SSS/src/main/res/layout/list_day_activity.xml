@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:paddingLeft="2dp"
+        android:paddingRight="4dp"
+        android:background="@drawable/background_activated" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/day_activity_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/day_activity_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/day_activity_location"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/day_activity_starts_in_LinearLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:paddingRight="6dp"
+            android:visibility="gone" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/day_activity_starts_in"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/day_activity_starts_in"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:textSize="24sp"
+                android:textStyle="italic" />
+        </LinearLayout>
+        
+        <LinearLayout 
+            android:id="@+id/activity_start_end_LinearLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="vertical"
+            android:paddingRight="4dp"
+            android:visibility="gone">
+            
+            <TextView 
+                android:id="@+id/activity_start"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"/>
+            
+            <TextView 
+                android:id="@+id/activity_end"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"/>
+            
+        </LinearLayout>
+
+        <View
+            android:id="@+id/day_colour_list"
+            android:layout_width="15dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="right"
+            android:background="@android:color/darker_gray" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/day_activity_passed_layer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.5"
+        android:background="@android:color/darker_gray"
+        android:gravity="center"
+        android:text="@string/day_activity_passed"
+        android:textSize="26sp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/day_activity_current_layer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.5"
+        android:background="#F7D358"
+        android:gravity="center"
+        android:text="@string/day_activity_current"
+        android:textColor="#FFBF00"
+        android:textSize="26sp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/day_activity_cancelled_layer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.5"
+        android:background="#F78181"
+        android:gravity="center"
+        android:text="@string/cancelled_layer"
+        android:textColor="#FE2E2E"
+        android:textSize="26sp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/day_activity_deferred_layer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.5"
+        android:background="#81BEF7"
+        android:gravity="center"
+        android:text="@string/deferred_layer"
+        android:textColor="#2E9AFE"
+        android:textSize="26sp"
+        android:visibility="gone" />
+
+</FrameLayout>

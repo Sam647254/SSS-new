@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Sam\Dropbox\Android studio\SSS\SSS\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\libs\internal_impl-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="C:\Users\Sam\Dropbox\Android studio\SSS\SSS\build\intermediates\pre-dexed\debug\internal_impl-23.0.1-276b4a2e7bd3be7291e12b23108cdfc9281bd451.jar" />
+    </item>
+    <item
+        jar="C:\Users\Sam\Dropbox\Android studio\SSS\SSS\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="C:\Users\Sam\Dropbox\Android studio\SSS\SSS\build\intermediates\pre-dexed\debug\classes-35a8f20741746787e36041882a616b5f704f4826.jar" />
+    </item>
+    <item
+        jar="C:\Users\Sam\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="C:\Users\Sam\Dropbox\Android studio\SSS\SSS\build\intermediates\pre-dexed\debug\library-2.4.0-d9232478bd6b07bc4910f71bf2cc63ff51d292c6.jar" />
+    </item>
+    <item
+        jar="C:\Users\Sam\Dropbox\Android studio\SSS\SSS\build\intermediates\exploded-aar\SSS\NineOldAndroids\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="f24a449ffc0f7afcba33bfda66249fdd06f0d3f8">
+        <dex dex="C:\Users\Sam\Dropbox\Android studio\SSS\SSS\build\intermediates\pre-dexed\debug\classes-1fd48ceb22f5cd5aaadecf80504e946909ad490b.jar" />
+    </item>
+    <item
+        jar="C:\Users\Sam\Dropbox\Android studio\SSS\SSS\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="C:\Users\Sam\Dropbox\Android studio\SSS\SSS\build\intermediates\pre-dexed\debug\classes-a77987774d7b8cd0fcf19a2d26fd4d05f5e829d5.jar" />
+    </item>
+    <item
+        jar="C:\Users\Sam\Dropbox\Android studio\SSS\SSS\build\intermediates\exploded-aar\com.code-troopers.betterpickers\library\2.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="0ac52a832939616e53a97e43b2c527f933e206bd">
+        <dex dex="C:\Users\Sam\Dropbox\Android studio\SSS\SSS\build\intermediates\pre-dexed\debug\classes-3bd4ccce7def4cb281760be40dca7c1e699ebaf1.jar" />
+    </item>
+    <item
+        jar="C:\Users\Sam\Downloads\android-sdk-windows\extras\android\m2repository\com\android\support\support-annotations\23.0.1\support-annotations-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
+        <dex dex="C:\Users\Sam\Dropbox\Android studio\SSS\SSS\build\intermediates\pre-dexed\debug\support-annotations-23.0.1-d9a40b9160c65f0a4affd74d047f46fd819b5cb3.jar" />
+    </item>
+
+</items>

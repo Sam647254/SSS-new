@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="net.givreardent.sam.sss"
+    android:versionCode="17"
+    android:versionName="0.9.2.2 (Beta)" >
+
+    <uses-sdk
+        android:minSdkVersion="9"
+        android:targetSdkVersion="23" />
+
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_sss_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="net.givreardent.sam.sss.FrontActivity"
+            android:label="@string/app_name_short" >
+            <intent-filter android:label="@string/app_name_short" >
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="net.givreardent.sam.sss.JournalActivity"
+            android:label="@string/journal_title" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".FrontActivity" />
+        </activity>
+        <activity
+            android:name="net.givreardent.sam.sss.JournalEntryActivity"
+            android:label="@string/journal_entry_title" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".JournalActivity" />
+        </activity>
+        <activity
+            android:name="net.givreardent.sam.sss.JournalViewActivity"
+            android:label="@string/journal_title" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".JournalActivity" />
+        </activity>
+        <activity
+            android:name="net.givreardent.sam.sss.TermListActivity"
+            android:label="@string/term_list_title" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".FrontActivity" />
+        </activity>
+        <activity
+            android:name="net.givreardent.sam.sss.TermCreateActivity"
+            android:label="@string/create_term"
+            android:windowSoftInputMode="stateUnchanged" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".TermListActivity" />
+        </activity>
+        <activity
+            android:name="net.givreardent.sam.sss.CourseCreateActivity"
+            android:label="@string/create_course"
+            android:windowSoftInputMode="stateUnchanged" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".TermCreateActivity" />
+        </activity>
+        <activity
+            android:name="net.givreardent.sam.sss.GradesTrackerActivity"
+            android:label="@string/GradesTracker" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".FrontActivity" />
+        </activity>
+        <activity
+            android:name="net.givreardent.sam.sss.SectionEditorActivity"
+            android:label="@string/section_editor_title" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".GradesTrackerActivity" />
+        </activity>
+        <activity
+            android:name="net.givreardent.sam.sss.ActivitiesOnDateActivity"
+            android:label="@string/activities_on_date_title"
+            android:parentActivityName="net.givreardent.sam.sss.FrontActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".FrontActivity" />
+        </activity>
+        <activity
+            android:name="net.givreardent.sam.sss.InClassActivity"
+            android:label="@string/in_class_mode_title" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".FrontActivity" />
+        </activity>
+        <activity
+            android:name="net.givreardent.sam.sss.RecordGradeActivity"
+            android:label="@string/record_grades_title" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".GradesTrackerActivity" />
+        </activity>
+        <activity
+            android:name="net.givreardent.sam.sss.GradesListActivity"
+            android:label="@string/record_grades_title"
+            android:parentActivityName="net.givreardent.sam.sss.GradesTrackerActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".GradesTrackerActivity" />
+        </activity>
+        <activity
+            android:name="net.givreardent.sam.sss.SettingsActivity"
+            android:label="@string/action_settings"
+            android:parentActivityName="net.givreardent.sam.sss.FrontActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".FrontActivity" />
+        </activity>
+        <activity
+            android:name="net.givreardent.sam.sss.HistoricalTermsActivity"
+            android:label="@string/historical_grades"
+            android:parentActivityName="net.givreardent.sam.sss.GradesTrackerActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".GradesTrackerActivity" />
+        </activity>
+
+        <service android:name="net.givreardent.sam.sss.util.NotifierService" />
+
+        <receiver android:name="net.givreardent.sam.sss.background.StartupReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

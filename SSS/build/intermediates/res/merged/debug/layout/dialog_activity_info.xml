@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <TextView
+        android:id="@+id/activity_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:padding="4dp"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:id="@+id/activity_course_LinearLayout"
+        style="@style/InfoRow" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/activity_info_course_label" />
+
+        <TextView
+            android:id="@+id/activity_course"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:layout_weight="1"
+            android:paddingLeft="10dp" />
+    </LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/activity_super_LinearLayout"
+        android:visibility="gone"
+        style="@style/InfoRow" >
+
+        <TextView
+            android:id="@+id/activity_super_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/activity_super"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:layout_weight="1"
+            android:paddingLeft="10dp" />
+    </LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/activity_date_LinearLayout"
+        style="@style/InfoRow" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/date_label" />
+
+        <TextView
+            android:id="@+id/activity_date"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:layout_weight="1"
+            android:paddingLeft="10dp" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/InfoRow" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/activity_info_start_time" />
+
+        <TextView
+            android:id="@+id/activity_start"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:layout_weight="1"
+            android:paddingLeft="10dp" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/InfoRow" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/activity_info_end_time" />
+
+        <TextView
+            android:id="@+id/activity_end"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:layout_weight="1"
+            android:paddingLeft="10dp" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/InfoRow" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/activity_info_location_label" />
+
+        <TextView
+            android:id="@+id/activity_location"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:layout_weight="1"
+            android:paddingLeft="10dp" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/InfoRow" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/activity_info_status_label" />
+
+        <TextView
+            android:id="@+id/activity_status"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:layout_weight="1"
+            android:paddingLeft="10dp" />
+    </LinearLayout>
+    
+    <LinearLayout style="@style/InfoRow">
+        
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/activity_info_reminder"/>
+        
+        <TextView 
+            android:id="@+id/activity_reminder"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:layout_weight="1"
+            android:paddingLeft="10dp"/>
+        
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/C:/Users/Sam/Dropbox/Android%20studio/SSS/SSS/src/main/res/layout/dialog_activity_info.xml -->

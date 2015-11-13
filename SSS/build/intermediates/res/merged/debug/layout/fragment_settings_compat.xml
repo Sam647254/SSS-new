@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:divider="@drawable/divider" >
+    
+    <include layout="@layout/settings_notifications_compat"/>
+    
+    <include layout="@layout/settings_auto_mute_compat"/>
+    
+    <include layout="@layout/settings_start_in_class_compat"/>
+    
+    <include layout="@layout/settings_reminder"/>
+    
+    <include layout="@layout/settings_exam_reminder"/>
+    
+	<include layout="@layout/settings_language"/>
+</TableLayout>
+<!-- From: file:/C:/Users/Sam/Dropbox/Android%20studio/SSS/SSS/src/main/res/layout/fragment_settings_compat.xml -->

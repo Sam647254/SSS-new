@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item 
+        android:id="@+id/day_activity_cancel"
+        android:title="@string/cancel_activity"/>
+    <item 
+        android:id="@+id/day_activity_defer"
+        android:title="@string/defer_activity"/>
+    <item
+        android:id="@+id/day_activity_reset"
+        android:title="@string/reset_activity" />
+	<item
+	    android:id="@+id/day_activity_stray_cancel"
+	    android:title="@string/cancel_stray_activity"/>
+	<item
+	    android:id="@+id/day_change_reminder"
+	    android:title="@string/change_reminder" />
+	<item 
+	    android:id="@+id/day_reset_reminder"
+	    android:title="@string/reset_reminder"/>
+</menu>

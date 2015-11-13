@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+        android:id="@+id/record_mark"
+        android:title="@string/record_mark"
+        android:icon="@android:drawable/ic_menu_edit"
+        android:showAsAction="ifRoom|withText" />
+
+    <item 
+        android:id="@+id/view_historical_grades"
+        android:title="@string/historical_grades"
+        android:showAsAction="never"/>
+</menu>
+<!-- From: file:/C:/Users/Sam/Dropbox/Android%20studio/SSS/SSS/src/main/res/menu/gradetracker_menu.xml -->

@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Student Studies Supporter</string>
+    <string name="app_name_short">Studies</string>
+    <string name="today_event">今日のイヴェント</string>
+    <string name="action_settings">設定</string>
+    <string name="empty_list_message">なにも表示できません</string>
+    <string name="upcoming_tasks">次のタスク</string>
+    <string name="journal_calendar">日記</string>
+    <string name="event_calendar">イベントを追加</string>
+    <string name="course_edit">授業を編集</string>
+    <string name="grades_track">GradesTracker</string>
+    <string name="todo_list">タスクを追加</string>
+    <string name="app_name_abbrev">SSS</string>
+    <string name="tomorrow_event">明日のイベント</string>
+    <string name="upcoming_events">次のイベント</string>
+    <string name="journal_title">日記</string>
+    <string name="create_journal">新しく書く</string>
+    <string name="date_label">日付</string>
+    <string name="title_label">タイトル</string>
+    <string name="weather_label">天気</string>
+    <string name="mood_label">気持ち</string>
+    <string name="journal_entry_title">新しく書く</string>
+    <string name="save_confirmation">保存しますか？</string>
+    <string name="journal_save_yes">はい</string>
+    <string name="journal_save_cancel">まだしまってない</string>
+    <string name="journal_save_no">いいえ</string>
+    <string name="journal_save_question">If you save,\nyou will not be able to edit it later.</string>
+    <string name="weather_choose">今日の天気はどう？</string>
+    <string name="menu_save">保存</string>
+    <string name="days_counter_singular">day</string>
+    <string name="days_counter_plural">days</string>
+    <string name="term_list_title">学期</string>
+    <string name="create_term">学期を追加</string>
+    <string name="term_name_label">名前</string>
+    <string name="term_start_label">開始</string>
+    <string name="term_end_label">終了</string>
+    <string name="add_course_button_label">コースを追加</string>
+    <string name="no_courses_message">コースがない\n下のボタンで追加しましょう</string>
+    <string name="save_term">学期を保存</string>
+    <string name="courses_counter_singular">course</string>
+    <string name="courses_counter_plural">courses</string>
+    <string name="date_picker_title">日付</string>
+    <string name="empty_term_identifier">学期の名前が必要です</string>
+    <string name="course_name_label">名前（オプショナル）</string>
+    <string name="course_code_label">コード</string>
+    <string name="no_activity_message">アクティビティがない\n下のボタンで追加しましょう</string>
+    <string name="add_activity_button">アクティビティ</string>
+    <string name="create_course">コース</string>
+    <string name="colour_choose_label">色をえらんでください</string>
+    <string name="empty_course_code">（学校に設定された）コードが必要です</string>
+    <string name="create_activity_title">アクティビティ：</string>
+    <string name="create_lecture_button">レクチャー</string>
+    <string name="create_lab_button">実験</string>
+    <string name="create_tutorial_button">チュートリアル</string>
+    <string name="create_other_activity_button">その他</string>
+    <string name="activity_name_label"> name</string>
+    <string-array name="days_of_the_week_short">
+        <item>日</item>
+        <item>月</item>
+        <item>火</item>
+        <item>水</item>
+        <item>木</item>
+        <item>金</item>
+        <item>土</item>
+    </string-array>
+    <string name="activity_date_label">日付</string>
+    <string name="activity_start_time_label">開始</string>
+    <string name="activity_end_time_label">終了</string>
+    <string name="activity_location_label">場所</string>
+    <string name="activity_recurrence_label">反復</string>
+    <string name="create_exam_button">試験</string>
+    <string name="other_activity">その他</string>
+    <string-array name="prof_names">
+        <item >教授</item>
+        <item >監督</item>
+        <item >チューター</item>
+    </string-array>
+    <string-array name="recurrence_types">
+        <item >なし</item>
+        <item >毎週</item>
+    </string-array>
+    <string-array name="days_of_the_week_one_letter">
+        <item>日</item>
+        <item>月</item>
+        <item>火</item>
+        <item>水</item>
+        <item>木</item>
+        <item>金</item>
+        <item>土</item>
+    </string-array>
+    <string name="delete_entry">削除</string>
+    <string name="day_activity_starts_in">開始まで</string>
+    <string name="day_activity_passed">終了</string>
+    <string name="at_a_glance">オバービュー</string>
+    <string-array name="drawer_entries">
+        <item >At a Glance</item>
+        <item >タスクのリスト</item>
+        <item >イベントのリスト</item>
+    </string-array>
+    <string name="drawer_open">Open drawer</string>
+    <string name="drawer_close">Close drawer</string>
+    <string name="day_activity_current">進行中</string>
+    <string name="task_list_title">タスクのリスト</string>
+    <string name="task_name_hint">名前</string>
+    <string name="task_course_label">コース</string>
+    <string name="task_due_date">予定日</string>
+    <string name="task_due_time">時間</string>
+    <string name="task_dialog_title">タスクを追加</string>
+    <string name="task_course_none">なし</string>
+    <string name="GradesTracker">GradesTracker</string>
+    <string name="section_editor_title">成績セクションを編集</string>
+    <string name="section_type">タイプ</string>
+    <string-array name="section_types">
+        <item >宿題/一般</item>
+        <item >試験</item>
+    </string-array>
+    <string name="section_exam">試験</string>
+    <string name="section_name">名前</string>
+    <string name="section_weight_hint">比重</string>
+    <string name="section_create_title">セクションを追加</string>
+    <string name="section_no_exam_toast">このコースは試験はない\n「授業を編集」で追加してください</string>
+    <string name="add_break_button">休みを追加</string>
+    <string name="no_break_message">休みがない\n下のボタンで追加しましょう</string>
+    <string name="create_break_title">休みを追加</string>
+    <string name="break_name_hint">名前</string>
+    <string name="break_start">開始</string>
+    <string name="break_end">終了</string>
+    <string name="cancel_activity">今度を取り消す</string>
+    <string name="defer_activity">今度を繰り延べる</string>
+    <string name="cancelled_layer">取り消された</string>
+    <string name="reset_activity">リセット</string>
+    <string name="defer_location_hint">場所（オプショナル）</string>
+    <string name="defer_date">日付</string>
+    <string name="defer_time">時間</string>
+    <string name="cancel_stray_activity">取り消す</string>
+    <string name="defer_dialog_title">繰り延べる</string>
+    <string name="deferred_layer">繰り延べされた</string>
+    <string name="activity_for_marks">成績にくわえる</string>
+    <string name="task_section_label">成績セクション</string>
+    <string name="activity_info_course_label">コース</string>
+    <string name="activity_info_start_time">開始</string>
+    <string name="activity_info_end_time">終了</string>
+    <string name="activity_info_location_label">場所</string>
+    <string name="activity_info_status_label">状態</string>
+    <string name="activity_info_title">アクティビティ情報</string>
+    <string-array name="activity_statuses">
+        <item >正常</item>
+        <item >終了</item>
+        <item >取り消された</item>
+        <item >進行中</item>
+        <item >繰り延べされた</item>
+    </string-array>
+    <string name="task_complete">完了</string>
+    <string name="task_info_title">タスク情報</string>
+    <string name="activity_on_date_menu">この日のイベント</string>
+    <string name="activities_on_date_title">この日のイベント</string>
+    <string name="in_class_mode_title">授業中モード</string>
+    <string name="in_class_current">進行中</string>
+    <string name="in_class_next">次</string>
+    <string name="h_format">%d時間</string>
+    <string name="min_format">%d分</string>
+    <string name="end_of_day">すべてのアクティビティが終了しました</string>
+    <string name="in_class_next_h">このアクティビティの後%d時間</string>
+    <string name="in_class_next_min">このアクティビティの後%d分</string>
+    <string name="add_task_success">タスクを追加しました</string>
+    <string name="task_delete_confirm_title">タスクを削除しますか？</string>
+    <string name="task_delete_confirm_message">えらんだタスクの中で成績にくわえたのがあります\n削除しったら、成績から減じます</string>
+    <string name="record_mark">成績を記録</string>
+    <string name="record_grades_title">成績を記録</string>
+    <string name="record_grade_score_hint">総点</string>
+    <string name="record_grade_out_of">満点</string>
+    <string name="task_info_score_label">成績</string>
+    <string name="edit">編集</string>
+    <string name="remove_grade">成績を消す</string>
+    <string name="event_list_title">イベントのリスト</string>
+    <string name="grade_list_subtitle">成績を記録できるタスク</string>
+    <string name="course_gradable">成績がある</string>
+    <string name="settings_notifications">リマインダー通知</string>
+    <string name="settings_notifications_descr">すべてのアクティビティのリマインダーを有効にする</string>
+    <string name="settings_in_class_mode">授業中モードを自動的にスタート</string>
+    <string name="settings_in_class_descr">授業の時、授業中モードでStudent Studies Supporterをスタートする</string>
+    <string name="settings_reminder">リマインダー</string>
+    <string name="settings_reminder_descr">試験の他のリマインダー</string>
+    <string name="min_before">分</string>
+    <string name="setting_reminder_exam">試験のリマインダー</string>
+    <string name="setting_reminder_exam_descr">すべての試験のリマインダー</string>
+    <string name="setting_mute_phone">自動的にミュートにする</string>
+    <string name="setting_mute_phone_descr">授業の時、スマートフォンをミュートにする</string>
+    <string name="setting_language">言語</string>
+    <string-array name="languages">
+        <item >システムデフォルト</item>
+        <item >English</item>
+        <item >Français</item>
+        <item >日本語</item>
+    </string-array>
+    <string name="record_grade_empty">記録できる成績はありません\nタスクの記録は、成績にくわえられることと完了したことが必要です</string>
+    <string name="record_exams_empty">記録できる試験はありません\n成績にくわえられることと終了したことが必要です</string>
+    <string name="reminder_label">リマインダー</string>
+    <string name="reminder_default">デフォルト</string>
+    <string name="activity_notification_title" formatted="false">%sの%sが%sに開始</string>
+    <string name="activity_notification_ticker" formatted="false">%s：%s</string>
+    <string name="task_notification_ticker" formatted="false">%sの予定日は%s</string>
+    <string name="task_notification_title" formatted="false">%sの%sの予定日は%s</string>
+    <string name="change_reminder">リマインダー時間を変更</string>
+    <string name="reset_reminder">リマインダーをデフォルトにする</string>
+    <string name="activity_info_reminder">リマインダー</string>
+    <string name="activity_info_reminder_min" formatted="false">%d分</string>
+    <string name="historical_grades">歴史の成績</string>
+    <string name="empty_today_activities">今日はアクティビティはありません</string>
+    <string name="empty_tomorrow_activities">明日はアクティビティはありません</string>
+    <string name="empty_upcoming_tasks">タスクはありません</string>
+    <string name="empty_upcoming_events">次の14日のイベントはありません</string>
+    <string name="empty_term_list">学期はありません\nメニューのボタンで追加しましょう</string>
+    <string name="empty_task_list">タスクはありません</string>
+    <string name="empty_event_list">イベントはありません</string>
+    <string name="empty_gradestracker">成績があるコースはありません\nコースを表示には、「授業を編集」で「成績がある」にする\n\n歴史の成績はメニューオプションで表示できる</string>
+    <string name="empty_historical_grades">歴史の成績はありません</string>
+    <string name="empty_sections">セクションはありません\nメニューのボタンで追加しましょう</string>
+    <string name="empty_journals">この日付は日記ありません</string>
+
+</resources>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <EditText 
+        android:id="@+id/task_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/task_name_hint"/>
+    
+    <LinearLayout 
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+	<EditText 
+	    android:id="@+id/record_grade_score"
+	    android:layout_width="0dp"
+	    android:layout_height="wrap_content"
+	    android:singleLine="true"
+	    android:layout_weight="1"
+	    android:inputType="numberDecimal"
+	    android:gravity="right"
+	    android:hint="@string/record_grade_score_hint"/>
+	
+	<TextView 
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="/"
+	    android:textSize="18sp"/>
+	
+	<EditText 
+	    android:id="@+id/record_grade_outof"
+	    android:layout_width="0dp"
+	    android:layout_height="wrap_content"
+	    android:singleLine="true"
+	    android:layout_weight="1"
+	    android:inputType="numberDecimal"
+	    android:hint="@string/record_grade_out_of"/>
+    </LinearLayout>
+</LinearLayout>

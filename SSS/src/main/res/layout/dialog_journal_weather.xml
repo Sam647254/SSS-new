@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/weather_radiogroup"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+        <RadioButton
+            android:id="@+id/radiobutton_sunny"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:checked="true"
+            android:drawableRight="@drawable/ic_weather_sunny"/>
+
+        <RadioButton
+            android:id="@+id/radiobutton_cloudy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:drawableRight="@drawable/ic_weather_cloudy"/>
+
+        <RadioButton
+            android:id="@+id/radiobutton_rain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:drawableRight="@drawable/ic_weather_rain"/>
+
+        <RadioButton
+            android:id="@+id/radiobutton_snow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:drawableRight="@drawable/ic_weather_snow"/>
+
+        <RadioButton
+            android:id="@+id/radiobutton_windy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:drawableRight="@drawable/ic_weather_windy"/>
+
+
+</RadioGroup>

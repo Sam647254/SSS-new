@@ -1,0 +1,186 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Sam\Dropbox\Android studio\SSS\SSS\src\main\AndroidManifest.xml:2:1-142:12
+	package
+		ADDED from C:\Users\Sam\Dropbox\Android studio\SSS\SSS\src\main\AndroidManifest.xml:3:5-38
+		INJECTED from C:\Users\Sam\Dropbox\Android studio\SSS\SSS\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Sam\Dropbox\Android studio\SSS\SSS\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from C:\Users\Sam\Dropbox\Android studio\SSS\SSS\src\main\AndroidManifest.xml:5:5-41
+	android:versionCode
+		ADDED from C:\Users\Sam\Dropbox\Android studio\SSS\SSS\src\main\AndroidManifest.xml:4:5-29
+		INJECTED from C:\Users\Sam\Dropbox\Android studio\SSS\SSS\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Sam\Dropbox\Android studio\SSS\SSS\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Sam\Dropbox\Android studio\SSS\SSS\src\main\AndroidManifest.xml:2:11-69
+uses-sdk
+ADDED from C:\Users\Sam\Dropbox\Android studio\SSS\SSS\src\main\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:23.0.1] C:\Users\Sam\Dropbox\Android studio\SSS\SSS\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.0.1] C:\Users\Sam\Dropbox\Android studio\SSS\SSS\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\AndroidManifest.xml:20:5-43
+MERGED from [com.code-troopers.betterpickers:library:2.2.1] C:\Users\Sam\Dropbox\Android studio\SSS\SSS\build\intermediates\exploded-aar\com.code-troopers.betterpickers\library\2.2.1\AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:appcompat-v7:23.0.1] C:\Users\Sam\Dropbox\Android studio\SSS\SSS\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.0.1] C:\Users\Sam\Dropbox\Android studio\SSS\SSS\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\AndroidManifest.xml:20:5-43
+	android:targetSdkVersion
+		ADDED from C:\Users\Sam\Dropbox\Android studio\SSS\SSS\src\main\AndroidManifest.xml:9:9-38
+		INJECTED from C:\Users\Sam\Dropbox\Android studio\SSS\SSS\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Sam\Dropbox\Android studio\SSS\SSS\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from C:\Users\Sam\Dropbox\Android studio\SSS\SSS\src\main\AndroidManifest.xml:8:9-34
+		INJECTED from C:\Users\Sam\Dropbox\Android studio\SSS\SSS\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Sam\Dropbox\Android studio\SSS\SSS\src\main\AndroidManifest.xml
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from C:\Users\Sam\Dropbox\Android studio\SSS\SSS\src\main\AndroidManifest.xml:11:5-12:67
+	android:name
+		ADDED from C:\Users\Sam\Dropbox\Android studio\SSS\SSS\src\main\AndroidManifest.xml:12:9-65
+uses-permission#android.permission.VIBRATE
+ADDED from C:\Users\Sam\Dropbox\Android studio\SSS\SSS\src\main\AndroidManifest.xml:13:5-65
+	android:name
+		ADDED from C:\Users\Sam\Dropbox\Android studio\SSS\SSS\src\main\AndroidManifest.xml:13:22-63
+application
+ADDED from C:\Users\Sam\Dropbox\Android studio\SSS\SSS\src\main\AndroidManifest.xml:15:5-140:19
+MERGED from [com.android.support:appcompat-v7:23.0.1] C:\Users\Sam\Dropbox\Android studio\SSS\SSS\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.0.1] C:\Users\Sam\Dropbox\Android studio\SSS\SSS\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:23.0.1] C:\Users\Sam\Dropbox\Android studio\SSS\SSS\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.0.1] C:\Users\Sam\Dropbox\Android studio\SSS\SSS\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\AndroidManifest.xml:22:5-20
+	android:label
+		ADDED from C:\Users\Sam\Dropbox\Android studio\SSS\SSS\src\main\AndroidManifest.xml:18:9-41
+	android:allowBackup
+		ADDED from C:\Users\Sam\Dropbox\Android studio\SSS\SSS\src\main\AndroidManifest.xml:16:9-35
+	android:icon
+		ADDED from C:\Users\Sam\Dropbox\Android studio\SSS\SSS\src\main\AndroidManifest.xml:17:9-49
+	android:theme
+		ADDED from C:\Users\Sam\Dropbox\Android studio\SSS\SSS\src\main\AndroidManifest.xml:19:9-40
+activity#net.givreardent.sam.sss.FrontActivity
+ADDED from C:\Users\Sam\Dropbox\Android studio\SSS\SSS\src\main\AndroidManifest.xml:20:9-28:20
+	android:label
+		ADDED from C:\Users\Sam\Dropbox\Android studio\SSS\SSS\src\main\AndroidManifest.xml:22:13-51
+	android:name
+		ADDED from C:\Users\Sam\Dropbox\Android studio\SSS\SSS\src\main\AndroidManifest.xml:21:13-42
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\Sam\Dropbox\Android studio\SSS\SSS\src\main\AndroidManifest.xml:23:13-27:29
+	android:label
+		ADDED from C:\Users\Sam\Dropbox\Android studio\SSS\SSS\src\main\AndroidManifest.xml:23:28-66
+action#android.intent.action.MAIN
+ADDED from C:\Users\Sam\Dropbox\Android studio\SSS\SSS\src\main\AndroidManifest.xml:24:17-69
+	android:name
+		ADDED from C:\Users\Sam\Dropbox\Android studio\SSS\SSS\src\main\AndroidManifest.xml:24:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Sam\Dropbox\Android studio\SSS\SSS\src\main\AndroidManifest.xml:26:17-77
+	android:name
+		ADDED from C:\Users\Sam\Dropbox\Android studio\SSS\SSS\src\main\AndroidManifest.xml:26:27-74
+activity#net.givreardent.sam.sss.JournalActivity
+ADDED from C:\Users\Sam\Dropbox\Android studio\SSS\SSS\src\main\AndroidManifest.xml:29:9-35:20
+	android:label
+		ADDED from C:\Users\Sam\Dropbox\Android studio\SSS\SSS\src\main\AndroidManifest.xml:31:13-50
+	android:name
+		ADDED from C:\Users\Sam\Dropbox\Android studio\SSS\SSS\src\main\AndroidManifest.xml:30:13-44
+meta-data#android.support.PARENT_ACTIVITY
+ADDED from C:\Users\Sam\Dropbox\Android studio\SSS\SSS\src\main\AndroidManifest.xml:32:13-34:50
+	android:value
+		ADDED from C:\Users\Sam\Dropbox\Android studio\SSS\SSS\src\main\AndroidManifest.xml:34:17-47
+	android:name
+		ADDED from C:\Users\Sam\Dropbox\Android studio\SSS\SSS\src\main\AndroidManifest.xml:33:17-63
+activity#net.givreardent.sam.sss.JournalEntryActivity
+ADDED from C:\Users\Sam\Dropbox\Android studio\SSS\SSS\src\main\AndroidManifest.xml:36:9-42:20
+	android:label
+		ADDED from C:\Users\Sam\Dropbox\Android studio\SSS\SSS\src\main\AndroidManifest.xml:38:13-56
+	android:name
+		ADDED from C:\Users\Sam\Dropbox\Android studio\SSS\SSS\src\main\AndroidManifest.xml:37:13-49
+activity#net.givreardent.sam.sss.JournalViewActivity
+ADDED from C:\Users\Sam\Dropbox\Android studio\SSS\SSS\src\main\AndroidManifest.xml:43:9-49:20
+	android:label
+		ADDED from C:\Users\Sam\Dropbox\Android studio\SSS\SSS\src\main\AndroidManifest.xml:45:13-50
+	android:name
+		ADDED from C:\Users\Sam\Dropbox\Android studio\SSS\SSS\src\main\AndroidManifest.xml:44:13-48
+activity#net.givreardent.sam.sss.TermListActivity
+ADDED from C:\Users\Sam\Dropbox\Android studio\SSS\SSS\src\main\AndroidManifest.xml:50:9-56:20
+	android:label
+		ADDED from C:\Users\Sam\Dropbox\Android studio\SSS\SSS\src\main\AndroidManifest.xml:52:13-52
+	android:name
+		ADDED from C:\Users\Sam\Dropbox\Android studio\SSS\SSS\src\main\AndroidManifest.xml:51:13-45
+activity#net.givreardent.sam.sss.TermCreateActivity
+ADDED from C:\Users\Sam\Dropbox\Android studio\SSS\SSS\src\main\AndroidManifest.xml:57:9-64:20
+	android:label
+		ADDED from C:\Users\Sam\Dropbox\Android studio\SSS\SSS\src\main\AndroidManifest.xml:59:13-48
+	android:windowSoftInputMode
+		ADDED from C:\Users\Sam\Dropbox\Android studio\SSS\SSS\src\main\AndroidManifest.xml:60:13-57
+	android:name
+		ADDED from C:\Users\Sam\Dropbox\Android studio\SSS\SSS\src\main\AndroidManifest.xml:58:13-47
+activity#net.givreardent.sam.sss.CourseCreateActivity
+ADDED from C:\Users\Sam\Dropbox\Android studio\SSS\SSS\src\main\AndroidManifest.xml:65:9-72:20
+	android:label
+		ADDED from C:\Users\Sam\Dropbox\Android studio\SSS\SSS\src\main\AndroidManifest.xml:67:13-50
+	android:windowSoftInputMode
+		ADDED from C:\Users\Sam\Dropbox\Android studio\SSS\SSS\src\main\AndroidManifest.xml:68:13-57
+	android:name
+		ADDED from C:\Users\Sam\Dropbox\Android studio\SSS\SSS\src\main\AndroidManifest.xml:66:13-49
+activity#net.givreardent.sam.sss.GradesTrackerActivity
+ADDED from C:\Users\Sam\Dropbox\Android studio\SSS\SSS\src\main\AndroidManifest.xml:73:9-79:20
+	android:label
+		ADDED from C:\Users\Sam\Dropbox\Android studio\SSS\SSS\src\main\AndroidManifest.xml:75:13-50
+	android:name
+		ADDED from C:\Users\Sam\Dropbox\Android studio\SSS\SSS\src\main\AndroidManifest.xml:74:13-50
+activity#net.givreardent.sam.sss.SectionEditorActivity
+ADDED from C:\Users\Sam\Dropbox\Android studio\SSS\SSS\src\main\AndroidManifest.xml:80:9-86:20
+	android:label
+		ADDED from C:\Users\Sam\Dropbox\Android studio\SSS\SSS\src\main\AndroidManifest.xml:82:13-57
+	android:name
+		ADDED from C:\Users\Sam\Dropbox\Android studio\SSS\SSS\src\main\AndroidManifest.xml:81:13-50
+activity#net.givreardent.sam.sss.ActivitiesOnDateActivity
+ADDED from C:\Users\Sam\Dropbox\Android studio\SSS\SSS\src\main\AndroidManifest.xml:87:9-94:20
+	android:label
+		ADDED from C:\Users\Sam\Dropbox\Android studio\SSS\SSS\src\main\AndroidManifest.xml:89:13-61
+	android:parentActivityName
+		ADDED from C:\Users\Sam\Dropbox\Android studio\SSS\SSS\src\main\AndroidManifest.xml:90:13-56
+	android:name
+		ADDED from C:\Users\Sam\Dropbox\Android studio\SSS\SSS\src\main\AndroidManifest.xml:88:13-53
+activity#net.givreardent.sam.sss.InClassActivity
+ADDED from C:\Users\Sam\Dropbox\Android studio\SSS\SSS\src\main\AndroidManifest.xml:95:9-101:20
+	android:label
+		ADDED from C:\Users\Sam\Dropbox\Android studio\SSS\SSS\src\main\AndroidManifest.xml:97:13-56
+	android:name
+		ADDED from C:\Users\Sam\Dropbox\Android studio\SSS\SSS\src\main\AndroidManifest.xml:96:13-44
+activity#net.givreardent.sam.sss.RecordGradeActivity
+ADDED from C:\Users\Sam\Dropbox\Android studio\SSS\SSS\src\main\AndroidManifest.xml:102:9-108:20
+	android:label
+		ADDED from C:\Users\Sam\Dropbox\Android studio\SSS\SSS\src\main\AndroidManifest.xml:104:13-56
+	android:name
+		ADDED from C:\Users\Sam\Dropbox\Android studio\SSS\SSS\src\main\AndroidManifest.xml:103:13-48
+activity#net.givreardent.sam.sss.GradesListActivity
+ADDED from C:\Users\Sam\Dropbox\Android studio\SSS\SSS\src\main\AndroidManifest.xml:109:9-116:20
+	android:label
+		ADDED from C:\Users\Sam\Dropbox\Android studio\SSS\SSS\src\main\AndroidManifest.xml:111:13-56
+	android:parentActivityName
+		ADDED from C:\Users\Sam\Dropbox\Android studio\SSS\SSS\src\main\AndroidManifest.xml:112:13-64
+	android:name
+		ADDED from C:\Users\Sam\Dropbox\Android studio\SSS\SSS\src\main\AndroidManifest.xml:110:13-47
+activity#net.givreardent.sam.sss.SettingsActivity
+ADDED from C:\Users\Sam\Dropbox\Android studio\SSS\SSS\src\main\AndroidManifest.xml:117:9-124:20
+	android:label
+		ADDED from C:\Users\Sam\Dropbox\Android studio\SSS\SSS\src\main\AndroidManifest.xml:119:13-52
+	android:parentActivityName
+		ADDED from C:\Users\Sam\Dropbox\Android studio\SSS\SSS\src\main\AndroidManifest.xml:120:13-56
+	android:name
+		ADDED from C:\Users\Sam\Dropbox\Android studio\SSS\SSS\src\main\AndroidManifest.xml:118:13-45
+activity#net.givreardent.sam.sss.HistoricalTermsActivity
+ADDED from C:\Users\Sam\Dropbox\Android studio\SSS\SSS\src\main\AndroidManifest.xml:125:9-132:20
+	android:label
+		ADDED from C:\Users\Sam\Dropbox\Android studio\SSS\SSS\src\main\AndroidManifest.xml:127:13-54
+	android:parentActivityName
+		ADDED from C:\Users\Sam\Dropbox\Android studio\SSS\SSS\src\main\AndroidManifest.xml:128:13-64
+	android:name
+		ADDED from C:\Users\Sam\Dropbox\Android studio\SSS\SSS\src\main\AndroidManifest.xml:126:13-52
+service#net.givreardent.sam.sss.util.NotifierService
+ADDED from C:\Users\Sam\Dropbox\Android studio\SSS\SSS\src\main\AndroidManifest.xml:133:9-79
+	android:name
+		ADDED from C:\Users\Sam\Dropbox\Android studio\SSS\SSS\src\main\AndroidManifest.xml:133:18-77
+receiver#net.givreardent.sam.sss.background.StartupReceiver
+ADDED from C:\Users\Sam\Dropbox\Android studio\SSS\SSS\src\main\AndroidManifest.xml:134:9-139:20
+	android:name
+		ADDED from C:\Users\Sam\Dropbox\Android studio\SSS\SSS\src\main\AndroidManifest.xml:135:13-55
+intent-filter#android.intent.action.BOOT_COMPLETED
+ADDED from C:\Users\Sam\Dropbox\Android studio\SSS\SSS\src\main\AndroidManifest.xml:136:13-138:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from C:\Users\Sam\Dropbox\Android studio\SSS\SSS\src\main\AndroidManifest.xml:137:17-78
+	android:name
+		ADDED from C:\Users\Sam\Dropbox\Android studio\SSS\SSS\src\main\AndroidManifest.xml:137:25-76

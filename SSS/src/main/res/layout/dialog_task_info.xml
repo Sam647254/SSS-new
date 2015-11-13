@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="4dp"
+    android:paddingRight="4dp" >
+
+    <TextView
+        android:id="@+id/task_info_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:textSize="20sp"
+        android:layout_gravity="center_horizontal" />
+
+    <LinearLayout
+        android:id="@+id/task_info_course_LinearLayout"
+        style="@style/InfoRow" 
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/activity_info_course_label" />
+
+        <TextView
+            android:id="@+id/task_info_course"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right" />
+    </LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/task_info_section_LinearLayout"
+        style="@style/InfoRow" 
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/task_section_label" />
+
+        <TextView
+            android:id="@+id/task_info_section"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right" />
+    </LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/task_info_score_LinearLayout"
+        style="@style/InfoRow" 
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/task_info_score_label" />
+
+        <TextView
+            android:id="@+id/task_info_score"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/InfoRow" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/task_due_date" />
+
+        <TextView
+            android:id="@+id/task_info_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right" />
+    </LinearLayout>
+    
+    <LinearLayout style="@style/InfoRow" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/task_due_time" />
+
+        <TextView
+            android:id="@+id/task_info_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right" />
+    </LinearLayout>
+    
+    <CheckBox 
+        android:id="@+id/task_complete_CheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/task_complete"
+        android:layout_gravity="center_horizontal"/>
+
+</LinearLayout>

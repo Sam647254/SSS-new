@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Student Studies Supporter</string>
+    <string name="app_name_short">Studies</string>
+    <string name="today_event">Today\'s events</string>
+    <string name="action_settings">Settings</string>
+    <string name="empty_list_message">Nothing to display.</string>
+    <string name="upcoming_tasks">Upcoming tasks</string>
+    <string name="journal_calendar">Journals</string>
+    <string name="event_calendar">Add event</string>
+    <string name="course_edit">Edit courses</string>
+    <string name="grades_track">GradesTracker</string>
+    <string name="todo_list">Add task</string>
+    <string name="app_name_abbrev">SSS</string>
+    <string name="tomorrow_event">Tomorrow\'s events</string>
+    <string name="upcoming_events">Upcoming events</string>
+    <string name="journal_title">Journals</string>
+    <string name="create_journal">Write new</string>
+    <string name="date_label">Date</string>
+    <string name="title_label">Title</string>
+    <string name="weather_label">Weather</string>
+    <string name="mood_label">Mood rating</string>
+    <string name="journal_entry_title">New entry</string>
+    <string name="save_confirmation">Save?</string>
+    <string name="journal_save_yes">Yes, I have finished.</string>
+    <string name="journal_save_cancel">Oops, not done yet.</string>
+    <string name="journal_save_no">No. Discard it.</string>
+    <string name="journal_save_question">If you save,\nyou will not be able to edit it later.</string>
+    <string name="weather_choose">How was today\'s weather?</string>
+    <string name="menu_save">Save</string>
+    <string name="days_counter_singular">day</string>
+    <string name="days_counter_plural">days</string>
+    <string name="term_list_title">Terms</string>
+    <string name="create_term">New term</string>
+    <string name="term_name_label">Term name</string>
+    <string name="term_start_label">Start Date</string>
+    <string name="term_end_label">End Date</string>
+    <string name="add_course_button_label">Add course</string>
+    <string name="no_courses_message">No courses to display.\nUse the button below to add one.</string>
+    <string name="save_term">Save term</string>
+    <string name="courses_counter_singular">course</string>
+    <string name="courses_counter_plural">courses</string>
+    <string name="date_picker_title">Choose date</string>
+    <string name="empty_term_identifier">Please enter a name for the term.</string>
+    <string name="course_name_label">Course name (optional)</string>
+    <string name="course_code_label">Course Code</string>
+    <string name="no_activity_message">No activity to display.\nUse the button below to add one.</string>
+    <string name="add_activity_button">Add activity</string>
+    <string name="create_course">New course</string>
+    <string name="colour_choose_label">Choose a colour</string>
+    <string name="empty_course_code">Please enter the course\'s code as defined by your school.</string>
+    <string name="create_activity_title">Create Activity: </string>
+    <string name="create_lecture_button">Lecture</string>
+    <string name="create_lab_button">Lab</string>
+    <string name="create_tutorial_button">Tutorial</string>
+    <string name="create_other_activity_button">Other</string>
+    <string name="activity_name_label"> name</string>
+    <string-array name="days_of_the_week_short">
+        <item>Sun</item>
+        <item>Mon</item>
+        <item>Tues</item>
+        <item>Wed</item>
+        <item>Thurs</item>
+        <item>Fri</item>
+        <item>Sat</item>
+    </string-array>
+    <string name="activity_date_label">Date:</string>
+    <string name="activity_start_time_label">From:</string>
+    <string name="activity_end_time_label">To:</string>
+    <string name="activity_location_label">Location</string>
+    <string name="activity_recurrence_label">Recurrence</string>
+    <string name="create_exam_button">Exam</string>
+    <string name="other_activity">Activity</string>
+    <string-array name="prof_names">
+        <item >Professor</item>
+        <item >Supervisor</item>
+        <item >Tutor</item>
+    </string-array>
+    <string-array name="recurrence_types">
+        <item >None</item>
+        <item >Weekly</item>
+    </string-array>
+    <string-array name="days_of_the_week_one_letter">
+        <item >Su</item>
+        <item >Mo</item>
+        <item >Tu</item>
+        <item >We</item>
+        <item >Th</item>
+        <item >Fr</item>
+        <item >Sa</item>
+    </string-array>
+    <string name="delete_entry">Delete</string>
+    <string name="day_activity_starts_in">starts in</string>
+    <string name="day_activity_passed">Passed</string>
+    <string name="at_a_glance">At a Glance</string>
+    <string-array name="drawer_entries">
+        <item >At a Glance</item>
+        <item >Task list</item>
+        <item >Event list</item>
+    </string-array>
+    <string name="drawer_open">Open drawer</string>
+    <string name="drawer_close">Close drawer</string>
+    <string name="day_activity_current">Current</string>
+    <string name="task_list_title">Task list</string>
+    <string name="task_name_hint">Name</string>
+    <string name="task_course_label">For course:</string>
+    <string name="task_due_date">Due date</string>
+    <string name="task_due_time">Due time</string>
+    <string name="task_dialog_title">Create task</string>
+    <string name="task_course_none">None</string>
+    <string name="GradesTracker">GradesTracker</string>
+    <string name="section_editor_title">Edit sections</string>
+    <string name="section_type">Type: </string>
+    <string-array name="section_types">
+        <item >Assignments/Other</item>
+        <item >Exam</item>
+    </string-array>
+    <string name="section_exam">Exam:</string>
+    <string name="section_name">Name</string>
+    <string name="section_weight_hint">Weight</string>
+    <string name="section_create_title">Create section</string>
+    <string name="section_no_exam_toast">This course does not contain exams.\nPlease create one in Edit courses.</string>
+    <string name="add_break_button">Add break</string>
+    <string name="no_break_message">No breaks in this term.\nIf there is one, use the button below to add it.</string>
+    <string name="create_break_title">Create break</string>
+    <string name="break_name_hint">Name</string>
+    <string name="break_start">Start:</string>
+    <string name="break_end">End:</string>
+    <string name="cancel_activity">Cancel this instance</string>
+    <string name="defer_activity">Defer this instance</string>
+    <string name="cancelled_layer">Cancelled</string>
+    <string name="reset_activity">Reinstantiate</string>
+    <string name="defer_location_hint">Location (optional)</string>
+    <string name="defer_date">Date:</string>
+    <string name="defer_time">Time:</string>
+    <string name="cancel_stray_activity">Cancel activity</string>
+    <string name="defer_dialog_title">Defer activity</string>
+    <string name="deferred_layer">Deferred</string>
+    <string name="activity_for_marks">Counts towards marks</string>
+    <string name="task_section_label">Section</string>
+    <string name="activity_info_course_label">Course</string>
+    <string name="activity_info_start_time">Start</string>
+    <string name="activity_info_end_time">End</string>
+    <string name="activity_info_location_label">Location</string>
+    <string name="activity_info_status_label">Status</string>
+    <string name="activity_info_title">Activity info</string>
+    <string-array name="activity_statuses">
+        <item >Normal</item>
+        <item >Passed</item>
+        <item >Cancelled</item>
+        <item >Current</item>
+        <item >Deferred</item>
+    </string-array>
+    <string name="task_complete">Complete</string>
+    <string name="task_info_title">Task info</string>
+    <string name="activity_on_date_menu">Events on date</string>
+    <string name="activities_on_date_title">Events on date</string>
+    <string name="in_class_mode_title">In-class mode</string>
+    <string name="in_class_current">Current activity</string>
+    <string name="in_class_next">Next activity</string>
+    <string name="h_format">%d h</string>
+    <string name="min_format">%d min</string>
+    <string name="end_of_day">No more activities\nfor today after this.</string>
+    <string name="in_class_next_h">%d h after this activity</string>
+    <string name="in_class_next_min">%d min after this activity</string>
+    <string name="add_task_success">Task added successfully.</string>
+    <string name="task_delete_confirm_title">Delete tasks?</string>
+    <string name="task_delete_confirm_message">You have selected tasks that count for marks.\nDeleting them will remove their grades.</string>
+    <string name="record_mark">Record grade</string>
+    <string name="record_grades_title">Record grade</string>
+    <string name="record_grade_score_hint">Your score</string>
+    <string name="record_grade_out_of">Total score</string>
+    <string name="task_info_score_label">Score</string>
+    <string name="edit">Edit</string>
+    <string name="remove_grade">Remove grade</string>
+    <string name="event_list_title">Event list</string>
+    <string name="grade_list_subtitle">Gradable tasks</string>
+    <string name="course_gradable">Gradable</string>
+    <string name="settings_notifications">Reminder notifications</string>
+    <string name="settings_notifications_descr">Enable reminders for all activities</string>
+    <string name="settings_in_class_mode">Start In-class mode during class</string>
+    <string name="settings_in_class_descr">Start Student Studies Supporter in In-class mode during class time</string>
+    <string name="settings_reminder">Reminder</string>
+    <string name="settings_reminder_descr">Reminder time for all non-exam activities</string>
+    <string name="min_before">min before</string>
+    <string name="setting_reminder_exam">Exam reminder</string>
+    <string name="setting_reminder_exam_descr">Reminder time for all exams</string>
+    <string name="setting_mute_phone">Auto mute phone</string>
+    <string name="setting_mute_phone_descr">Automatically mute phone during class</string>
+    <string name="setting_language">Language</string>
+    <string-array name="languages">
+        <item >System default</item>
+        <item >English</item>
+        <item >Français</item>
+        <item >日本語</item>
+    </string-array>
+    <string name="record_grade_empty">No new grades to record.\nIf you are expecting a task to show here, make sure that the task is set to be gradable and is completed.</string>
+    <string name="record_exams_empty">No new exams to record.\nFor an exam to show up here, it must be gradable and has passed.</string>
+    <string name="reminder_label">Reminder:</string>
+    <string name="reminder_default">Use default</string>
+    <string name="activity_notification_title" formatted="false">%s %s starts at %s</string>
+    <string name="activity_notification_ticker" formatted="false">%s at %s</string>
+    <string name="task_notification_ticker" formatted="false">%s due at %s</string>
+    <string name="task_notification_title" formatted="false">%s %s due at %s</string>
+    <string name="change_reminder">Change reminder time</string>
+    <string name="reset_reminder">Reset reminder to default</string>
+    <string name="activity_info_reminder">Reminder</string>
+    <string name="activity_info_reminder_min" formatted="false">%d min</string>
+    <string name="historical_grades">Historical grades</string>
+    <string name="empty_today_activities">No activities for today.</string>
+    <string name="empty_tomorrow_activities">No activities for tomorrow.</string>
+    <string name="empty_upcoming_tasks">No upcoming tasks.</string>
+    <string name="empty_upcoming_events">No upcoming events within 14 days.</string>
+    <string name="empty_term_list">No terms.\nUse the button above to add one.</string>
+    <string name="empty_task_list">No tasks.</string>
+    <string name="empty_event_list">No events.</string>
+    <string name="empty_gradestracker">No gradable courses.\nFor a course to show up, mark it as gradable in Edit Courses.\n\nFor previous terms, select Historical grades from the menu.</string>
+    <string name="empty_historical_grades">No historical grades.</string>
+    <string name="empty_sections">No sections.\nUse the button above to add one.</string>
+    <string name="empty_journals">No entries for this date.</string>
+
+</resources>

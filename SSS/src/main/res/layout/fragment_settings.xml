@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:divider="@drawable/divider" >
+    
+    <include layout="@layout/settings_notifications"/>
+    
+    <include layout="@layout/settings_auto_mute"/>
+    
+    <include layout="@layout/settings_start_in_class"/>
+    
+    <include layout="@layout/settings_reminder"/>
+    
+    <include layout="@layout/settings_exam_reminder"/>
+    
+	<include layout="@layout/settings_language"/>
+</TableLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle" >
+    <gradient 
+        android:centerY="0.05"
+        android:endColor="#585858"
+        android:gradientRadius="20"
+        android:startColor="#BDBDBD"
+        android:type="radial"/>
+
+</shape>
+<!-- From: file:/C:/Users/Sam/Dropbox/Android%20studio/SSS/SSS/src/main/res/drawable/in_class_background.xml -->

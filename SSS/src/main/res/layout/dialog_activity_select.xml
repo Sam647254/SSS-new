@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:divider="@drawable/divider"
+    android:orientation="vertical"
+    android:showDividers="middle" >
+
+    <Button
+        android:id="@+id/create_lecture_button"
+        style="@style/DialogButton"
+        android:text="@string/create_lecture_button" />
+
+    <Button
+        android:id="@+id/create_lab_button"
+        style="@style/DialogButton"
+        android:text="@string/create_lab_button" />
+
+    <Button
+        android:id="@+id/create_tutorial_button"
+        style="@style/DialogButton"
+        android:text="@string/create_tutorial_button" />
+
+    <Button
+        android:id="@+id/create_exam_button"
+        style="@style/DialogButton"
+        android:text="@string/create_exam_button" />
+
+    <Button
+        android:id="@+id/create_other_activity_button"
+        style="@style/DialogButton"
+        android:text="@string/create_other_activity_button" />
+
+</LinearLayout>
